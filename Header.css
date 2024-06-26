@@ -25,12 +25,33 @@
     padding-right: 0.75rem /* 12px */;
     padding-top: 0.25rem /* 4px */;
     padding-bottom: 0.25rem /* 4px */;
+    box-shadow: -7px 7px 0px #000;
     
 }
 
 #img{
     width: 100px ;
 
+}
+
+
+.container-text{
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    text-align: center;
+}
+.container-text h1{
+   font-size: 30px;
+   line-height: 2.25rem;
+   font-weight: 500;
+}
+.container-text p{
+    
+    margin-top: 2.5rem;
+    max-width: 740px;
+    margin: auto;
+    font-size: 0.75rem /* 12px */;
+    line-height: 1rem /* 16px */;
 }
 
 @media (min-width: 640px) {
@@ -42,7 +63,17 @@
         padding-bottom: 0.75rem /* 12px */;
         padding-left: 1.5rem /* 24px */;
         padding-right: 1.5rem /* 24px */;
+                      
+    }
+    .container-text h1{
+        
+        font-size: 3rem /* 48px */;
+        line-height: 1;
     
+    }
+    .container-text p{
+        font-size: 1rem /* 16px */;
+        line-height: 1.5rem /* 24px */;
     }
 }
 
